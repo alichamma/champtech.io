@@ -3,281 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ChampTech LLC - Your Visionary Tech Partner in AI, Software Development, and Digital Innovation">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>ChampTech LLC | Visionary Tech Partner</title>
-    <link rel="icon" type="image/png" href="favicon.ico">
-    <link rel="shortcut icon" href="efavicon.ico">
+    <title>PeakAI - Your AI-Powered Personal Trainer</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="landing.css">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f5f5;
-            padding: 2rem;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            padding: 2rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            margin-bottom: 1.5rem;
-            color: #2d3436;
-            font-size: 1.8rem;
-        }
-
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-            color: #2d3436;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #ddd;
-            border-radius: 6px;
-            font-size: 1rem;
-            font-family: inherit;
-            transition: border-color 0.3s ease;
-        }
-
-        input:focus, textarea:focus {
-            outline: none;
-            border-color: #0072E3;
-        }
-
-        textarea {
-            min-height: 150px;
-            resize: vertical;
-        }
-
-        button {
-            background: #0072E3;
-            color: white;
-            border: none;
-            padding: 0.75rem 1.5rem;
-            border-radius: 6px;
-            font-size: 1rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background: #005bb8;
-        }
-
-        .error {
-            color: #e74c3c;
-            font-size: 0.9rem;
-            margin-top: 0.25rem;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container nav-content">
-            <div class="logo-container">
-                <img src="logo.png" alt="ChampTech Logo" class="logo">
-            </div>
-            <div class="nav-links">
-                <a href="#services">Services</a>
-                <a href="#why-us">Why Us</a>
-                <a href="#case-studies">Case Studies</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </nav>
-
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Transforming Ideas into Digital Reality</h1>
-                <p class="hero-subtitle">We're your visionary tech partner, specializing in AI-powered solutions, custom software development, and digital innovation.</p>
-                <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-primary">Start a Project</a>
-                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <img src="logo.png" alt="PeakAI Logo" class="logo-img">
+                <span class="logo-text">PeakAI</span>
+            </div>
+            <button class="menu-button" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#how-it-works">How It Works</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#faq">FAQ</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Your AI-Powered Personal Trainer</h1>
+                <p class="hero-description">PeakAI is an upcoming mobile app that gives you a personalized workout plan — updated daily using AI based on your previous training, performance and goals.</p>
+                <div class="cta-container">
+                    <div class="offer-badge">
+                        <i class="fas fa-gift"></i>
+                        Get 3 Months Free — Only for the First 50 Users
+                    </div>
+                    <form action="https://formsubmit.co/alichamma1005@gmail.com" method="POST" class="waitlist-form">
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <input type="hidden" name="_subject" value="New PeakAI Waitlist Signup">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://peakai.champtech.dk/?success=true">
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="cta-button">
+                            <i class="fas fa-arrow-right"></i>
+                            Join the waitlist
+                        </button>
+                    </form>
+                    <p class="launch-text">Launching soon. Be among the first to experience smarter, AI-powered fitness coaching.</p>
+                    <div class="app-badges">
+                        <a href="#" class="app-badge">
+                            <i class="fab fa-apple"></i>
+                            <span>Coming soon on App Store</span>
+                        </a>
+                        <a href="#" class="app-badge">
+                            <i class="fab fa-google-play"></i>
+                            <span>Coming soon on Google Play</span>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://placehold.co/400x600/0072E3/ffffff?text=PeakAI+App" alt="PeakAI App Preview">
+            </div>
+        </div>
+    </header>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <h2>How PeakAI Works</h2>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <h3>1. Answer Questions</h3>
+                <p>Tell us about your goals, fitness level, and preferences to create your personalized profile</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h3>2. Get AI Plan</h3>
+                <p>Our AI analyzes your profile and creates a dynamic training plan that evolves with you</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>3. Train Smarter</h3>
+                <p>Watch your progress improve with AI-optimized workouts that adapt to your performance</p>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Services</h2>
-                <p>Comprehensive digital solutions tailored to your business needs</p>
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits">
+        <h2>Why Choose PeakAI?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <i class="fas fa-sync"></i>
+                <h3>Dynamic Adjustment</h3>
+                <p>Your plan evolves with your progress and feedback, ensuring optimal results</p>
             </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Solutions</h3>
-                    <p>Leverage the power of artificial intelligence to automate processes and gain valuable insights.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>App Development</h3>
-                    <p>Native and cross-platform mobile applications built with cutting-edge technology.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Custom Software</h3>
-                    <p>Tailored software solutions designed to streamline your business operations.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-cloud"></i>
-                    </div>
-                    <h3>Cloud Solutions</h3>
-                    <p>Scalable cloud infrastructure and services for modern businesses.</p>
-                </div>
+            <div class="benefit-card">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Personal Progression</h3>
+                <p>AI learns from your performance to optimize results and prevent plateaus</p>
+            </div>
+            <div class="benefit-card">
+                <i class="fas fa-brain"></i>
+                <h3>Smarter Training</h3>
+                <p>Data-driven insights help you make informed decisions about your fitness journey</p>
             </div>
         </div>
     </section>
 
-    <!-- Why Choose Us Section -->
-    <section id="why-us" class="why-us">
-        <div class="container">
-            <div class="section-title">
-                <h2>Why Choose ChampTech?</h2>
-                <p>Experience the difference with our innovative approach and proven expertise</p>
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>How does the AI personalization work?</h3>
+                <p>Our AI analyzes your training data, progress, and feedback to continuously optimize your workout plan and ensure you're moving towards your goals efficiently. It learns from your performance and adjusts intensity, exercises, and rest periods accordingly.</p>
             </div>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <h3>Innovation First</h3>
-                    <p>We stay ahead of the curve with cutting-edge technologies and methodologies.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Client-Centric</h3>
-                    <p>Your success is our priority, with dedicated support and personalized solutions.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Quality Assured</h3>
-                    <p>Rigorous testing and quality control ensure reliable, secure solutions.</p>
-                </div>
+            <div class="faq-item">
+                <h3>What kind of workouts does PeakAI provide?</h3>
+                <p>PeakAI offers a wide range of workouts tailored to your goals, from strength training to cardio, all optimized by AI for your specific needs. Whether you're a beginner or an advanced athlete, our AI creates the perfect program for you.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Get in Touch</h2>
-                <p>Ready to transform your business? Let's discuss your project</p>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p>Have questions? We're here to help!</p>
-                    <ul>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:ali@champtech.dk">ali@champtech.dk</a></li>
-                        <li><i class="fas fa-phone"></i> <a href="tel:+4522222222">+45 22 22 22 22</a></li>
-                        <li><i class="fas fa-map-marker-alt"></i> Copenhagen, Denmark</li>
-                    </ul>
-                </div>
-                <form action="send.php" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="company">Company</label>
-                        <input type="text" id="company" name="company">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
+            <div class="faq-item">
+                <h3>When will PeakAI launch?</h3>
+                <p>We're launching soon! Join our waitlist to be among the first 50 users and get 3 months free. You'll be notified as soon as we launch and get exclusive early access to all features.</p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <img src="logo.png" alt="ChampTech Logo" class="logo">
-                    <p>Your visionary tech partner in digital innovation.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="PeakAI Logo" class="footer-logo">
+                    <h3>PeakAI</h3>
                 </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#why-us">Why Us</a></li>
-                        <li><a href="#case-studies">Case Studies</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Services</h3>
-                    <ul>
-                        <li><a href="#">AI Solutions</a></li>
-                        <li><a href="#">App Development</a></li>
-                        <li><a href="#">Custom Software</a></li>
-                        <li><a href="#">Cloud Solutions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Connect With Us</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                    </div>
+                <p>Your AI-powered personal trainer</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <a href="mailto:hello@peakai.com">hello@peakai.com</a>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 ChampTech LLC. All rights reserved.</p>
-            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PeakAI. All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.querySelector('.menu-button');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navLinks.contains(e.target) && !menuButton.contains(e.target)) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Check for success parameter in URL
+        window.addEventListener('load', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('success') === 'true') {
+                alert('Thank you for joining the waitlist! We will notify you when PeakAI launches.');
+                // Remove success parameter from URL without refreshing the page
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        });
+    </script>
 </body>
 </html> 
